@@ -65,7 +65,7 @@ const controller = {
         }
 
         try {
-            User.updateOne({ _id: ObjectId(id) }, req.body).then((result) => {
+            User.updateOne({ _id: ObjectId(id) }, {...req.body, updatedOn: new Date}).then((result) => {
                 if(result.nModified) {
                     response.success({response: res, body: 'Usuario actualizado'})
                 }

@@ -1,0 +1,36 @@
+{
+  "name": "crud-usuarios",
+  "version": "1.0.0",
+  "description": "Crud de usuarios usando Express y MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierSR/crud-usuarios.git"
+  },
+  "keywords": [
+    "crud",
+    "users",
+    "node",
+    "express",
+    "mongo"
+  ],
+  "author": "Oscar Javier Sandoval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JavierSR/crud-usuarios/issues"
+  },
+  "homepage": "https://github.com/JavierSR/crud-usuarios#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
